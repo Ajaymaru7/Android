@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tweenanimation</string>
+
+    <string-array name="sp_op">
+        <item>Rotate</item>
+        <item>Scale</item>
+        <item>Translate</item>
+        <item>Alpha</item>
+        <item>Mix</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExSpinner</string>
+    <string-array name="clr">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+</resources>

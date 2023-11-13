@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExDialog</string>
+    <string name="dialog_message">Well Come to Alert Dialog</string>
+    <string name="dialog_title"> Alert Dialog</string>
+</resources>

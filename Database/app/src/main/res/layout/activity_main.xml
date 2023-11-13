@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg6"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Database Operation"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textColor="#faf4f4"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:theme="@android:style/Animation.Toast" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Database"
+        android:id="@+id/btn_CD"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:textColor="#000000"
+        android:background="#5371e9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSERT"
+        android:id="@+id/btn_insert"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/btn_CD"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:textColor="#fcf8f8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/btn_update"
+        android:background="@drawable/button_shape"
+        android:layout_above="@+id/btn_delete"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:textColor="#d0e5f5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete "
+        android:id="@+id/btn_delete"
+        android:background="@drawable/button_shape"
+        android:layout_below="@+id/btn_insert"
+        android:layout_alignLeft="@+id/btn_insert"
+        android:layout_alignStart="@+id/btn_insert"
+        android:layout_marginTop="52dp"
+        android:textColor="#faf4f4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:id="@+id/btn_search"
+        android:background="@drawable/button_shape"
+        android:layout_above="@+id/btn_view"
+        android:layout_alignLeft="@+id/btn_update"
+        android:layout_alignStart="@+id/btn_update"
+        android:textColor="#fbf6f6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW"
+        android:id="@+id/btn_view"
+        android:layout_below="@+id/btn_delete"
+        android:layout_marginTop="40dp"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="#5371e9" />
+</RelativeLayout>
